@@ -50,11 +50,15 @@ class AddFoodPage extends GetView<AddFoodLogicLogic> {
                                           width: 43,
                                           height: 43,
                                         )
-                                      : Image.memory(
-                                          controller.foodImage!,
-                                          fit: BoxFit.fitWidth,
-                                          width: 90,
-                                        ),
+                                      : ClipRRect(
+                                          borderRadius: BorderRadius.circular(12),
+                                          child: Image.memory(
+                                            controller.foodImage!,
+                                            width: double.infinity,
+                                            height: double.infinity,
+                                            fit: BoxFit.cover,
+                                          ),
+                                        )
                                 ],
                               ),
                             );

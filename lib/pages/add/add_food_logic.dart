@@ -3,6 +3,7 @@ import 'dart:typed_data';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_cupertino_datetime_picker2/flutter_cupertino_datetime_picker2.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:foodtimer/pages/add/select_type_dialog.dart';
 import 'package:foodtimer/res/colors.dart';
 import 'package:get/get.dart';
@@ -29,13 +30,19 @@ class AddFoodLogicLogic extends GetxController {
   DateTime? startDateTime;
   DateTime? endDateTime;
 
-  selectImage() {
-    showImagePickerBottomSheet(Get.context!, callback: (XFile? file) async {
-      if (file != null) {
-        foodImage = await file.readAsBytes();
+  selectImage() async {
+    final picker = ImagePicker();
+    try {
+      final pickedFile = await picker.pickImage(source: ImageSource.gallery);
+      if (pickedFile != null) {
+        final imageBytes = await pickedFile.readAsBytes();
+        foodImage = imageBytes;
         update(['change_image']);
       }
-    });
+    } catch (e) {
+      Fluttertoast.showToast(msg: 'Please try again with another picture');
+      return;
+    }
   }
 
   @override
