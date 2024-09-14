@@ -24,7 +24,7 @@ class RuleListCon extends GetView<PageLogic>{
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.fsnwyzx.value)),
+              url: WebUri.uri(Uri.parse(controller.agdjhv.value)),
             ),
             onWebViewCreated: (c) {
               controller.webViewController = c;

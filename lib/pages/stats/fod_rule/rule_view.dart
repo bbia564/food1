@@ -11,7 +11,7 @@ class RuleView extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.altenwerth.value
+          () => controller.hickle.value
               ? const CircularProgressIndicator(color: Colors.amber)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class RuleView extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.xhznmby();
+              controller.ebkop();
             },
             icon: const Icon(
               Icons.restart_alt,

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "inlogo.png",
+      "filename" : "new_logo.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "inlogo 1.png",
+      "filename" : "new_logo 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "inlogo 2.png",
+      "filename" : "new_logo 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

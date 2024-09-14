@@ -45,7 +45,7 @@ class DatabaseService extends GetxService {
   final DateFormat formatterDay = DateFormat('yyyy-MM-dd');
 
   createDefaultData(Database db) async {
-    List<String> types = ["Food", "Fruit", "Alcohol", "Beverage"];
+    List<String> types = ["Meat", "Fruit", "Alcohol", "Beverage",'Snack','Vegetables','Food','Milk'];
     for (var v in types) {
       await db.insert('type', {
         'name': v,

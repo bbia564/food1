@@ -1,112 +1,112 @@
 {
   "images" : [
     {
-      "filename" : "inlogo 1.png",
+      "filename" : "new_logo 1.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "inlogo 2.png",
+      "filename" : "new_logo 2.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
-      "filename" : "inlogo 3.png",
+      "filename" : "new_logo 3.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "inlogo 4.png",
+      "filename" : "new_logo 4.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
-      "filename" : "inlogo 5.png",
+      "filename" : "new_logo 5.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "38x38"
     },
     {
-      "filename" : "inlogo 6.png",
+      "filename" : "new_logo 6.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "38x38"
     },
     {
-      "filename" : "inlogo 7.png",
+      "filename" : "new_logo 7.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "inlogo 8.png",
+      "filename" : "new_logo 8.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "inlogo 9.png",
+      "filename" : "new_logo 9.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
-      "filename" : "inlogo 10.png",
+      "filename" : "new_logo 10.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "60x60"
     },
     {
-      "filename" : "inlogo 11.png",
+      "filename" : "new_logo 11.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "64x64"
     },
     {
-      "filename" : "inlogo 12.png",
+      "filename" : "new_logo 12.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "64x64"
     },
     {
-      "filename" : "inlogo 13.png",
+      "filename" : "new_logo 13.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "68x68"
     },
     {
-      "filename" : "inlogo 14.png",
+      "filename" : "new_logo 14.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
-      "filename" : "inlogo 15.png",
+      "filename" : "new_logo 15.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "inlogo.png",
+      "filename" : "new_logo.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "1x",
